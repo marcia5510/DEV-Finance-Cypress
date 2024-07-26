@@ -59,6 +59,9 @@ describe("Dev finances", () => {
         .click();
   
       cy.get("#data-table tbody tr").should("have.length", 0);
+
       
     });
+    // npx cypress open --config viewportWidth=430,viewportHeight=823
+
   });
